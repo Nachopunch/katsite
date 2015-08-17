@@ -1,0 +1,21 @@
+
+a {
+	font-family: 'News Cycle', sans-serif;
+	color:black;
+	font-size: 150%;
+}
+#navbar {
+	float: right;
+}
+
+.navbar {
+	opacity: .90;
+}
+.navbar-header{
+
+}
+.navbar-brand {
+	font-size: 200%;
+	color:black;
+	font-family: 'Josefin Sans', sans-serif;
+}

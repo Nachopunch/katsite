@@ -1,0 +1,11 @@
+#portfolio {
+	margin-top:0px;
+	height:700px;
+	width:100%;
+	background:url(http://i.imgur.com/8SfI0NF.jpg) center top fixed;
+	background-size: cover;
+	
+}
+#portfolio h1{
+	margin-top:70px;
+}

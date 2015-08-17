@@ -1,0 +1,11 @@
+#contact {
+	margin-top:0px;
+	height:350px;
+	width:100%;
+	background: linear-gradient(rgb(50,180,250),rgb(30,30,150));
+	
+}
+
+#contact h1 {
+	margin-top: 20px;
+}

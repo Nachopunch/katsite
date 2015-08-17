@@ -1,0 +1,11 @@
+#about {
+	margin-top:0px;
+	height:650px;
+	width:100%;
+	background:url(http://i.imgur.com/kYd3pxn.jpg) center fixed;
+	background-size: cover;
+	
+}
+#about h1{
+	margin-top:70px;
+}
