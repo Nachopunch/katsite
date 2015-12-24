@@ -21,19 +21,19 @@ var port = normalizePort(process.env.PORT || '80');
 app.set('port', port);
 
 //Connect to mongodb
-mongo.connect('mongodb://127.0.0.1:27017/katsite', function(err, db){
-  if(err) throw err;
+// mongo.connect('mongodb://127.0.0.1:27017/katsite', function(err, db){
+//   if(err) throw err;
 
-  var paintingsCol = db.collection('paintings');
+//   var paintingsCol = db.collection('paintings');
 
-  var paintings = [];
+//   var paintings = [];
 
-  paintingsCol.find(function(err, res){
-      paintings.push(res);
-  });
+//   paintingsCol.find(function(err, res){
+//       paintings.push(res);
+//   });
   
 
-  console.log(paintings);
+//   console.log(paintings);
 
 
   /**
@@ -44,7 +44,7 @@ mongo.connect('mongodb://127.0.0.1:27017/katsite', function(err, db){
   server.on('error', onError);
   server.on('listening', onListening);
 
-});
+// });
 /**
  * Normalize a port into a number, string, or false.
  */
