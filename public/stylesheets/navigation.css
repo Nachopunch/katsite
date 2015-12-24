@@ -19,3 +19,7 @@ a {
 	color:black;
 	font-family: 'Josefin Sans', sans-serif;
 }
+
+li a {
+	transition: background-color 0.5s;
+}

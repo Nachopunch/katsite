@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <!-- head file containing links for css/fonts -->
   <% include ./partials/head.ejs %>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <!-- navigation bar -->
   	<% include ./partials/navigation.ejs %>
-   	<% include ./partials/intro.ejs %>
+    
+    <!-- first content block -->
+    <div class='content-block'>
+   	<% include ./partials/\intro.ejs %>
+    </div>
+    <!-- second content block -->
+    <div class='content-block'>
     <% include ./partials/about.ejs %>
+    </div>
+    <!-- third content block -->
+    <div class='content-block'>
     <% include ./partials/portfolio.ejs %>
+    </div>
+    <!-- fourth content block -->
+    <div class='content-block'>
     <% include ./partials/contact.ejs %>
+    </div>
 
+    <!-- scripts for page functionality -->
     <% include ./partials/scripts.ejs %>
   </body>
 </html>
