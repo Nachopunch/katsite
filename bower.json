@@ -1,0 +1,26 @@
+{
+  "name": "katsite",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Nachopunch/katsite",
+  "authors": [
+    "Joey Bunger <jjlbunger@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lightbox2": "~2.8.2",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "masonry": "~3.3.2"
+  }
+}

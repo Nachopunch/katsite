@@ -1,11 +1,21 @@
 #about {
-	margin-top:0px;
-	height:650px;
+	padding:80px 40px;
 	width:100%;
-	background:url(http://i.imgur.com/kYd3pxn.jpg) center fixed;
-	background-size: cover;
-	
+/*	background:url(http://i.imgur.com/kYd3pxn.jpg) center fixed;
+	background-size: cover;*/
+	background-color: rgb(23,123,223);
+	font: "Arial", Helvetica, sans-serif;
+
 }
-#about h1{
-	margin-top:70px;
+.section-title{
+	margin-top:0px;
+	text-align:center;
+}
+
+.about-body-text{
+	font-size:28px;
+	font-weight:normal;
+	max-width: 1200px;
+	text-align:justify;
+	margin:15px auto;
 }

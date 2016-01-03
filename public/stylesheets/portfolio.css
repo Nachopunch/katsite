@@ -1,11 +1,51 @@
 #portfolio {
 	margin-top:0px;
-	height:700px;
 	width:100%;
-	background:url(http://i.imgur.com/8SfI0NF.jpg) center top fixed;
-	background-size: cover;
-	
+/*	background:url(http://i.imgur.com/8SfI0NF.jpg) center top fixed;
+	background-size: cover;*/
+	background-color: rgb(223,123,23);
 }
-#portfolio h1{
-	margin-top:70px;
+
+.gallery {
+	max-width:1600px;
+	margin: 60px auto;
+	font-size:0;
+}
+.painting-thumbnail {
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+}
+.thumbnail-wrapper{
+	padding-bottom:60px;
+}
+
+/*.Collage {
+	padding:5px;
+}
+
+.Collage img {
+	vertical-align:bottom;
+	opacity:0;
+}*/
+
+.grid{
+	margin: 0 auto;
+	opacity:0;
+	transition: opacity 1.5s;
+}
+
+.grid-item {
+	margin-top:10px;
+	width:190px;
+}
+
+
+.w2{
+	width:390px;
+}
+
+.w3{
+	width:590px;
 }
